@@ -1,0 +1,6 @@
+MODEL_PATH = "data/intent_model.pkl"
+VECTORIZER_PATH = "data/vectorizer.pkl"
+INTENT_DATA_PATH = "data/intents.json"
+DB_PATH = "db/jarvis_memory.db"
+LLM_API_URL = "http://localhost:11434/api/generate"
+LLM_MODEL = "llama3"

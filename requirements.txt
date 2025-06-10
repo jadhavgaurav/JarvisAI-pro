@@ -1,0 +1,13 @@
+pyttsx3
+SpeechRecognition
+pyaudio
+wikipedia
+pyjokes
+pywhatkit
+requests
+joblib
+scikit-learn
+spacy
+sqlalchemy
+sentence-transformers
+faiss-cpu
