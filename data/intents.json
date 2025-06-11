@@ -1,1 +1,411 @@
-[]
+[
+  {
+    "intent": "greet",
+    "examples": [
+      "hello",
+      "hi",
+      "hey",
+      "yo",
+      "hiya",
+      "sup",
+      "howdy",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "hi there",
+      "greetings",
+      "what's up",
+      "hey there",
+      "hello assistant",
+      "hi jarvis",
+      "good day",
+      "hi buddy",
+      "hey jarvis",
+      "hi friend",
+      "how are you",
+      "how's it going",
+      "what's going on",
+      "what's happening",
+      "hello again"
+    ],
+    "responses": [
+      "Hello! How can I assist you?",
+      "Hi there! What can I do for you?",
+      "Hey! Ready when you are.",
+      "Hello! I’m listening."
+    ]
+  },
+  {
+    "intent": "time",
+    "examples": [
+      "what time is it",
+      "tell me the time",
+      "current time",
+      "do you know the time",
+      "check the time",
+      "can you tell the time",
+      "what's the time",
+      "time please",
+      "say the time",
+      "give me the time",
+      "show me the time",
+      "clock",
+      "what is the hour",
+      "time now",
+      "what hour is it"
+    ],
+    "responses": [
+      "Let me check the time for you.",
+      "Sure, here's the current time.",
+      "Right now it's:"
+    ]
+  },
+  {
+    "intent": "date",
+    "examples": [
+      "what's the date today",
+      "tell me today's date",
+      "date please",
+      "what day is it",
+      "what is today",
+      "today's date",
+      "give me the date",
+      "check the date",
+      "which day is today",
+      "what is the date today",
+      "can you tell the date",
+      "today is what",
+      "do you know the date"
+    ],
+    "responses": [
+      "Here's the date for today.",
+      "Let me fetch today’s date for you.",
+      "Sure, the date today is:"
+    ]
+  },
+  {
+    "intent": "joke",
+    "examples": [
+      "tell me a joke",
+      "say something funny",
+      "make me laugh",
+      "i want to laugh",
+      "cheer me up",
+      "crack a joke",
+      "do you know any jokes",
+      "give me a funny line",
+      "funny please",
+      "one liner",
+      "make me smile",
+      "make me happy",
+      "can you be funny",
+      "jarvis joke",
+      "tell another joke",
+      "tell me something humorous"
+    ],
+    "responses": [
+      "Here's something funny.",
+      "Hope this joke makes you laugh!",
+      "Sure! Here's a joke for you."
+    ]
+  },
+  {
+    "intent": "play_music",
+    "examples": [
+      "play some music",
+      "play a song",
+      "play music",
+      "can you play something",
+      "i want to hear music",
+      "start music",
+      "play songs for me",
+      "put on music",
+      "play my favorite song",
+      "sing a song",
+      "youtube music",
+      "play on youtube",
+      "start playing music",
+      "give me music",
+      "play trending music",
+      "play bollywood songs",
+      "play english songs",
+      "play some calm music",
+      "play romantic songs",
+      "play something on youtube"
+    ],
+    "responses": [
+      "Sure! Let me play something.",
+      "Playing music for you.",
+      "Enjoy the song!"
+    ]
+  },
+  {
+    "intent": "open_youtube",
+    "examples": [
+      "open youtube",
+      "launch youtube",
+      "go to youtube",
+      "start youtube",
+      "show me youtube",
+      "can you open youtube",
+      "youtube please",
+      "bring up youtube",
+      "youtube website",
+      "run youtube"
+    ],
+    "responses": [
+      "Opening YouTube for you.",
+      "Sure, here’s YouTube.",
+      "Launching YouTube now."
+    ]
+  },
+  {
+    "intent": "open_google",
+    "examples": [
+      "open google",
+      "go to google",
+      "launch google",
+      "start google",
+      "google search",
+      "search on google",
+      "bring up google",
+      "open google.com",
+      "open the google homepage",
+      "run google"
+    ],
+    "responses": [
+      "Opening Google.",
+      "Launching Google search.",
+      "Taking you to Google."
+    ]
+  },
+  {
+    "intent": "location",
+    "examples": [
+      "where am i",
+      "tell me my location",
+      "what is my location",
+      "check my location",
+      "my current location",
+      "locate me",
+      "can you tell where I am",
+      "current location please",
+      "geo location",
+      "what city am i in",
+      "where is my position",
+      "where are we",
+      "which city am i in"
+    ],
+    "responses": [
+      "Checking your location...",
+      "Fetching your current location.",
+      "Locating you now..."
+    ]
+  },
+  {
+    "intent": "wikipedia_search",
+    "examples": [
+      "who is albert einstein",
+      "tell me about python",
+      "what is artificial intelligence",
+      "define machine learning",
+      "search for newton",
+      "who was mahatma gandhi",
+      "explain recursion",
+      "get me info on elon musk",
+      "find information about gravity",
+      "tell me about india",
+      "lookup barack obama",
+      "who is isaac newton",
+      "what is quantum computing",
+      "who is steve jobs",
+      "give me details on bill gates",
+      "explain blockchain",
+      "tell me about covid",
+      "summarize tesla company",
+      "who is narendra modi",
+      "explain space travel"
+    ],
+    "responses": [
+      "Let me search that on Wikipedia.",
+      "Looking it up for you.",
+      "Here's what I found."
+    ]
+  },
+  {
+    "intent": "shutdown",
+    "examples": [
+      "shut down the system",
+      "turn off computer",
+      "power off the pc",
+      "shutdown",
+      "switch off the machine",
+      "exit system",
+      "kill the machine",
+      "power down",
+      "system shutdown",
+      "turn off my laptop"
+    ],
+    "responses": [
+      "Shutting down. Goodbye!",
+      "Okay, turning off the system.",
+      "System shutdown initiated."
+    ]
+  },
+  {
+    "intent": "exit",
+    "examples": [
+      "exit",
+      "quit",
+      "close jarvis",
+      "terminate",
+      "stop assistant",
+      "exit the program",
+      "shut down jarvis",
+      "you can go now",
+      "i'm done",
+      "goodbye",
+      "end session",
+      "log off",
+      "stop now",
+      "end the assistant",
+      "exit now"
+    ],
+    "responses": [
+      "Goodbye! Exiting now.",
+      "Shutting down Jarvis.",
+      "Session ended. See you next time!"
+    ]
+  },
+  {
+    "intent": "unknown",
+    "examples": [],
+    "responses": [
+      "Sorry, I didn't understand that.",
+      "Can you please rephrase?",
+      "I'm not sure how to help with that."
+    ]
+  },
+  {
+    "intent": "weather",
+    "examples": [
+      "what's the weather like",
+      "tell me the weather",
+      "how's the weather today",
+      "is it going to rain",
+      "what's the forecast"
+    ],
+    "responses": [
+      "Checking the weather for you.",
+      "Let me find out the weather."
+    ]
+  },
+  {
+    "intent": "open_app",
+    "examples": [
+      "open chrome",
+      "launch vscode",
+      "start excel",
+      "open notepad",
+      "run code",
+      "launch word",
+      "open command prompt",
+      "start cmd",
+      "open powershell",
+      "launch paint",
+      "start calculator",
+      "open vs code",
+      "open file explorer"
+    ],
+    "responses": [
+      "Opening the application.",
+      "Sure, launching it now.",
+      "One moment, opening the app."
+    ]
+  },
+  {
+    "intent": "close_app",
+    "examples": [
+      "close chrome",
+      "stop vscode",
+      "exit notepad",
+      "terminate word",
+      "kill excel",
+      "shut down code editor",
+      "close cmd",
+      "stop powershell",
+      "close paint",
+      "close calculator",
+      "exit explorer"
+    ],
+    "responses": [
+      "Closing the application.",
+      "Okay, shutting it down.",
+      "Done. App closed."
+    ]
+  },
+  {
+    "intent": "shutdown",
+    "examples": [
+      "shut down the system",
+      "power off the computer",
+      "turn off pc",
+      "shutdown laptop",
+      "initiate shutdown",
+      "shutdown everything"
+    ],
+    "responses": [
+      "Shutting down the system. See you later!",
+      "System shutdown initiated."
+    ]
+  },
+  {
+    "intent": "restart",
+    "examples": [
+      "restart the computer",
+      "reboot the system",
+      "restart my laptop",
+      "reboot everything",
+      "start again"
+    ],
+    "responses": ["Restarting the system now.", "Rebooting. Please wait."]
+  },
+  {
+    "intent": "sleep",
+    "examples": [
+      "put computer to sleep",
+      "go to sleep",
+      "sleep the system",
+      "enter sleep mode",
+      "activate sleep"
+    ],
+    "responses": ["Putting the system to sleep.", "Going into sleep mode."]
+  },
+  {
+    "intent": "set_alarm",
+    "examples": [
+      "set alarm",
+      "set the alarm",
+      "set an alarm",
+      "wake me up at 7 am",
+      "alarm for 6:30",
+      "remind me at 8 o'clock",
+      "alarm at 5:00",
+      "alarm me at 9"
+    ],
+    "responses": ["Setting the alarm.", "Alarm configured."]
+  },
+  {
+    "intent": "exit",
+    "examples": [
+      "exit the assistant",
+      "quit",
+      "shut down jarvis",
+      "terminate the assistant",
+      "stop everything",
+      "jarvis exit",
+      "end session"
+    ],
+    "responses": ["Goodbye! Exiting now.", "Jarvis is shutting down."]
+  }
+]
