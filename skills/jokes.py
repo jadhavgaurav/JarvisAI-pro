@@ -1,4 +1,4 @@
-import pyjokes
+import pyjokes # type: ignore
 from core.speaker import speak
 
 def handle(query: str):

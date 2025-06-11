@@ -1,9 +1,9 @@
 import json
 import random
-import joblib
+import joblib #type: ignore
 import os
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.feature_extraction.text import TfidfVectorizer #type: ignore
+from sklearn.naive_bayes import MultinomialNB #type: ignore
 
 from core.config import INTENT_DATA_PATH, MODEL_PATH, VECTORIZER_PATH
 
@@ -50,7 +50,13 @@ def predict_intent(query: str) -> str:
 
     X_test = vectorizer.transform([query.lower()])
     predicted = model.predict(X_test)[0]
+    confidence = max(model.predict_proba(X_test)[0])
+
+    # Threshold-based fallback
+    if confidence < 0.65:
+        return "unknown"
     return predicted
+
 
 def get_random_response(intent: str) -> str:
     for item in intent_data:

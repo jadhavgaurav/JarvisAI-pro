@@ -1,4 +1,4 @@
-import requests
+import requests #type: ignore
 from core.speaker import speak
 
 def handle(query: str):

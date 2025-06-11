@@ -407,5 +407,31 @@
       "end session"
     ],
     "responses": ["Goodbye! Exiting now.", "Jarvis is shutting down."]
-  }
+  },
+
+  {
+  "intent": "smalltalk",
+  "examples": [
+    "how are you",
+    "what's up",
+    "how is everything",
+    "how's it going",
+    "what do you do",
+    "who made you",
+    "who created you",
+    "tell me about yourself",
+    "i love you",
+    "do you love me",
+    "you're awesome",
+    "thanks",
+    "thank you"
+  ],
+  "responses": [
+    "I'm here to assist you anytime.",
+    "I was built by Gaurav — your awesome developer!",
+    "I'm running fully offline and still pretty smart 😉",
+    "Always ready to help, just like a true assistant."
+  ]
+}
+
 ]
